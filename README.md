@@ -25,7 +25,7 @@ This is my implementation for **Extractive Text Summarization** using topic mode
 
 the training file with 99000 documents is heavy in size (around 500 MB) and hence i uploaded it to the drive with public access where one can easily download it. But you can still run the evaluation and inference since the trained model is already inside this directory.
 
-**LINK**: https://drive.google.com/file/d/1dYuJm92pZRcd8roCQagiLN2TPZccrQpB/view?usp=sharing
+**LINK**:https://disk.yandex.com/d/RIsIKoi3JrYNTg
 
 ##### Project Execution Guide 
 
