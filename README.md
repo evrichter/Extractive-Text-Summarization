@@ -67,18 +67,24 @@ Summarizes a document (default: `data/text_inference.txt`).
 
 ## 📊 Results (ROUGE Scores)  
 
-### Unseen Documents  
-```text
-ROUGE-1 F1: 20.99
-ROUGE-L F1: 21.14
-ROUGE-2/3/4: ~3–4 F1 (expected for higher n-grams)
-```
-
 ### Seen Documents  
 ```text
-ROUGE-1 F1: 19.96
-ROUGE-L F1: 21.37
-Similar trends to unseen data (robust generalization).
+ROUGE-1:  P: 16.87  R: 31.44  F1: 19.96
+ROUGE-2:  P:  3.49  R:  7.55  F1:  4.30
+ROUGE-3:  P:  0.39  R:  2.45  F1:  1.23
+ROUGE-4:  P:  0.36  R:  1.09  F1:  0.50
+ROUGE-L:  P: 18.01  R: 31.45  F1: 21.37
+ROUGE-W:  P: 10.29  R: 11.27  F1:  9.30
+```
+
+### Unseen Documents  
+```text
+ROUGE-1:  P: 21.34  R: 24.75  F1: 20.99
+ROUGE-2:  P:  4.11  R:  4.47  F1:  3.94
+ROUGE-3:  P:  1.29  R:  1.46  F1:  1.25
+ROUGE-4:  P:  0.47  R:  0.51  F1:  0.46
+ROUGE-L:  P: 20.90  R: 24.55  F1: 21.14
+ROUGE-W:  P: 11.70  R:  6.99  F1:  7.68
 ```
 
 **Example extractive summary:**  
